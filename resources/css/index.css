@@ -1,0 +1,65 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+.heading{
+    background-color: blanchedalmond;
+    height: 300px;
+    width:auto;
+}
+
+.section1{
+    background-color: rgb(213, 105, 62);
+    height: 300px;
+    width:auto;
+}
+
+.navbar{
+    display: flex;
+    cursor: pointer;
+    position: sticky;
+    top: 0;
+    justify-content: center;
+    align-items: center;
+}
+
+.navBackground{
+    background-color: brown;
+    background-blend-mode: darken;
+    background-size: cover;
+}
+
+.navList{
+    width: 70%;
+    display: flex;
+    align-items: center;
+}
+
+.navList li {
+    padding: 25px 30px;
+    list-style: none;
+}
+
+.navList li a {
+    color: white;
+    text-decoration: none;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80%;
+    max-width: 75%;
+    margin: auto;
+}
+
+.title-text {
+    font-size: 40px;
+    font-family: bold;
+}
+
+.paragraphs {
+    font-size: 20px;
+}
