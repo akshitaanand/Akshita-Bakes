@@ -55,6 +55,13 @@
     margin: auto;
 }
 
+.formatSection {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
 .title-text {
     font-size: 40px;
     font-family: bold;
@@ -62,4 +69,8 @@
 
 .paragraphs {
     font-size: 20px;
+}
+
+.divider {
+    padding: 0px 70px;
 }
