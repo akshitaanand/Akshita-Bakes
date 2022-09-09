@@ -11,7 +11,7 @@
 }
 
 .section1{
-    background-color: rgb(213, 105, 62);
+    background-color:#c68b52;
     height: 300px;
     width:auto;
 }
@@ -36,7 +36,7 @@
 }
 
 .navBackground{
-    background-color: brown;
+    background-color: #85500d;
     background-blend-mode: darken;
     background-size: cover;
 }
@@ -100,4 +100,9 @@
 
 .divider {
     padding: 0px 70px;
+}
+
+.baking-text {
+    font-family: 'Tinos', serif;
+    margin-top: 30px;
 }
