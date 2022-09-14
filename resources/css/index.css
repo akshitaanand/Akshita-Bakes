@@ -4,19 +4,18 @@
     margin: 0;
     padding: 0;
 }
-.heading{
+.heading {
     background-color: #ffebcd;
     height: 500px;
     width:auto;
 }
 
-.section1{
+.section1 {
     background-color:#c68b52;
-    height: 300px;
     width:auto;
 }
 
-.navbar{
+.navbar {
     display: flex;
     cursor: pointer;
     position: sticky;
@@ -31,7 +30,7 @@
 }
 
 .nav-text {
-    font-size: 18px;
+    font-size: 24px;
     font-family: 'Tinos', serif;
 }
 
@@ -57,6 +56,18 @@
     text-decoration: none;
 }
 
+.nav-right {
+    width: 30%;
+    text-align: right;
+}
+
+#search {
+    border-color: #ffebcd;
+    border-radius: 3px;
+    border: 6px #ffebcd;
+    font-size: 12px;
+}
+
 .content {
     display: flex;
     justify-content: center;
@@ -71,6 +82,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+    margin: 50px;
 }
 
 .picture {
@@ -105,4 +117,55 @@
 .baking-text {
     font-family: 'Tinos', serif;
     margin-top: 30px;
+}
+
+.ingredients-text {
+    font-family: 'Tinos', serif;
+    margin-top: 25px;
+}
+
+.row {
+    display: flex;
+    background-color: #c47e3d;
+    margin: 30px;
+  }
+  
+  .column {
+    flex: 50%;
+  }
+
+  .rowPic {
+    display: flex;
+  }
+  
+  .columnPic {
+    flex: 33.3%;
+    padding: 10px;
+  }
+
+  .text-block {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    background-color: black;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .img-container {
+    margin-top: 30px;
+    position: relative;
+  }
+
+  .box-text {
+    font-family: 'Tinos', serif;
+    margin: 10px;
+    color: white;
+    text-decoration: none;
+}
+
+  .recipe-box {
+    background-color: #85500d;
+    margin: 20px;
 }
