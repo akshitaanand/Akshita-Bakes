@@ -27,6 +27,7 @@
 .nav-title {
     font-size: 35px;
     font-family: 'Yeseva One', cursive;
+    color: white;
 }
 
 .nav-text {
@@ -43,7 +44,6 @@
 .navList{
     width: 70%;
     display: flex;
-    align-items: center;
 }
 
 .navList li {
@@ -117,11 +117,18 @@
 .baking-text {
     font-family: 'Tinos', serif;
     margin-top: 30px;
+    margin: 10px;
+}
+
+.baking-title {
+    margin-top: 20px;
+    background-color: #a16312;
 }
 
 .ingredients-text {
     font-family: 'Tinos', serif;
     margin-top: 25px;
+    margin: 30px;
 }
 
 .row {
@@ -132,6 +139,7 @@
   
   .column {
     flex: 50%;
+    margin: 20px;
   }
 
   .rowPic {
@@ -169,3 +177,36 @@
     background-color: #85500d;
     margin: 20px;
 }
+
+.styled-table {
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9em;
+    font-family: sans-serif;
+    min-width: 400px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+.styled-table thead tr {
+    background-color: #492d08;
+    color: #ffffff;
+    text-align: left;
+}
+
+.styled-table th,
+.styled-table td {
+    padding: 12px 15px;
+}
+
+.styled-table tbody tr {
+    border-bottom: 1px solid #ffffff;
+}
+
+.styled-table tbody tr:nth-of-type(even) {
+    background-color: #c09c6e;
+}
+
+.styled-table tbody tr:last-of-type {
+    border-bottom: 2px solid #492d08;
+}
+
