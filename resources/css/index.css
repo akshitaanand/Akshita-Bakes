@@ -227,7 +227,7 @@
     margin: 20px;
 }
 
-.styled-table {
+.table-format {
     font-family: sans-serif;
     max-width: 100%;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.20);
@@ -236,26 +236,26 @@
     font-size: 15px;
 }
 
-.styled-table thead tr {
+.table-format thead tr {
     text-align: left;
     background-color: #492d08;
     color: #ffffff;
 }
 
-.styled-table th,
-.styled-table td {
+.table-format th,
+.table-format td {
     padding: 12px 15px;
 }
 
-.styled-table tbody tr {
+.table-formattbody tr {
     border-bottom: 1px solid #ffffff;
 }
 
-.styled-table tbody tr:nth-of-type(even) {
+.table-format tbody tr:nth-of-type(even) {
     background-color: #c09c6e;
 }
 
-.styled-table tbody tr:last-of-type {
+.table-format tbody tr:last-of-type {
     border-bottom: 1px solid #492d08;
 }
 
