@@ -1,4 +1,4 @@
-# Project1_ITSS4312
+# Baking with Akshita
  
 ## This is a baking website that contains my favorite recipes!
 
